@@ -85,8 +85,3 @@ online_journal/
 ```
 
 ---
-
-## 📧 Муаллиф
-
-**Абдухолиқов Ҳусниддин**
-GitHub: [abdukholiqovhusniddin](https://github.com/abdukholiqovhusniddin)
