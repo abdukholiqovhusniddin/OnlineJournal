@@ -1,0 +1,17 @@
+﻿@model online_journal.Models.Student
+
+@{
+    ViewData["Title"] = "Xorij kardan";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<h4>Dar haqiqat in xonandaro xorij kardani hasted?</h4>
+<div>
+    <h5>@Model.FullName</h5>
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="Id" />
+        <button type="submit" class="btn btn-danger">Bale, Xorij kardan</button>
+        <a asp-action="Index" class="btn btn-secondary">Ne</a>
+    </form>
+</div>

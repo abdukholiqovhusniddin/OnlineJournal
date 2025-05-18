@@ -1,0 +1,37 @@
+﻿@model online_journal.ViewModels.RegisterViewModel
+@{
+    ViewBag.Title = "Az ruyxat guzashdan";
+}
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6 shadow p-4 rounded bg-white">
+            <h3 class="text-center mb-4">Az ruyxat guzashdan</h3>
+            <form asp-action="Register" method="post">
+                <div class="form-group mb-3">
+                    <label>Nom</label>
+                    <input asp-for="FirstName" class="form-control" placeholder="Nomatonro doxil kuned" />
+                </div>
+                <div class="form-group mb-3">
+                    <label>Nasab</label>
+                    <input asp-for="LastName" class="form-control" placeholder="Nasabatona doxil kuned" />
+                </div>
+                <div class="form-group mb-3">
+                    <label>Telefon</label>
+                    <input asp-for="PhoneNumber" class="form-control" placeholder="+998901234567" />
+                </div>
+                <div class="form-group mb-3">
+                    <label>Email</label>
+                    <input asp-for="Email" type="email" class="form-control" placeholder="Email doxil kuned" />
+                </div>
+                <div class="form-group mb-3">
+                    <label>Parol</label>
+                    <div class="input-group">
+                        <input asp-for="Password" type="password" class="form-control" id="register-password" />
+                        <button type="button" class="btn btn-outline-secondary" onclick="togglePassword('register-password')">👁</button>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-primary w-100">Az ruyxat guzashdan</button>
+            </form>
+        </div>
+    </div>
+</div>

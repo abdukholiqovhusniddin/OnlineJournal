@@ -1,0 +1,31 @@
+﻿@model IEnumerable<online_journal.Models.Grade>
+
+@{
+    ViewData["Title"] = "Ruyxati baho";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Bahoi nav doxil kardan</a>
+</p>
+
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th>Xonanda</th>
+            <th>Fan</th>
+            <th>Baho</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var grade in Model)
+        {
+            <tr>
+                <td>@grade.Student?.FullName</td>
+                <td>@grade.Subject?.Name</td>
+                <td>@grade.Score</td>
+            </tr>
+        }
+    </tbody>
+</table>
