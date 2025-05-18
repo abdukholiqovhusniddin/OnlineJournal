@@ -1,0 +1,31 @@
+﻿@model IEnumerable<online_journal.Models.Homework>
+
+@{
+    ViewData["Title"] = "Ruyxati vazifai xonagi";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<table class="table table-bordered table-hover">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Nomi fan</th>
+            <th>Vazifai xonagi</th>
+            <th>Muddat</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Id</td>
+                <td>@item.Subject?.Name</td>
+                <td>@item.Description</td>
+                <td>@item.DueDate.ToString("dd.MM.yyyy")</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a href="@Url.Action("Create")" class="btn btn-primary">Doxil kardani vazifai xonagi</a>

@@ -1,8 +1,9 @@
-﻿using System;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using online_journal.Data;
 using online_journal.Models;
+using System.Threading.Tasks;
 
 namespace online_journal.Controllers
 {
@@ -18,10 +19,12 @@ namespace online_journal.Controllers
 
         public IActionResult Create()
         {
+            ViewData["Subjects"] = new SelectList(_context.Subjects, "Id", "Name");
             return View();
         }
 
         [HttpPost]
+        [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create(Homework homework)
         {
             if (ModelState.IsValid)
@@ -30,6 +33,7 @@ namespace online_journal.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
+            ViewData["Subjects"] = new SelectList(_context.Subjects, "Id", "Name", homework.SubjectId);
             return View(homework);
         }
     }
