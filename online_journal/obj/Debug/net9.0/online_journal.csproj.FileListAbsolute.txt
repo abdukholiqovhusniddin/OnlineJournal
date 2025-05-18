@@ -17,9 +17,7 @@ C:\Users\Another love\OneDrive\Desktop\online_journal\online_journal\obj\Debug\n
 C:\Users\Another love\OneDrive\Desktop\online_journal\online_journal\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\Another love\OneDrive\Desktop\online_journal\online_journal\obj\Debug\net9.0\scopedcss\bundle\online_journal.styles.css
 C:\Users\Another love\OneDrive\Desktop\online_journal\online_journal\obj\Debug\net9.0\scopedcss\projectbundle\online_journal.bundle.scp.css
-C:\Users\Another love\OneDrive\Desktop\online_journal\online_journal\obj\Debug\net9.0\compressed\501skae9ct-b9sayid5wm.gz
 C:\Users\Another love\OneDrive\Desktop\online_journal\online_journal\obj\Debug\net9.0\compressed\xplk0iz5r9-61n19gt1b8.gz
-C:\Users\Another love\OneDrive\Desktop\online_journal\online_journal\obj\Debug\net9.0\compressed\1z68tzarif-xtxxf3hu2r.gz
 C:\Users\Another love\OneDrive\Desktop\online_journal\online_journal\obj\Debug\net9.0\compressed\0sn5yn33wl-bqjiyaj88i.gz
 C:\Users\Another love\OneDrive\Desktop\online_journal\online_journal\obj\Debug\net9.0\compressed\dn6o4jka4v-c2jlpeoesf.gz
 C:\Users\Another love\OneDrive\Desktop\online_journal\online_journal\obj\Debug\net9.0\compressed\0g0u2rqyni-erw9l3u2r3.gz
@@ -228,3 +226,6 @@ C:\Users\Another love\OneDrive\Desktop\online_journal\online_journal\bin\Debug\n
 C:\Users\Another love\OneDrive\Desktop\online_journal\online_journal\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 C:\Users\Another love\OneDrive\Desktop\online_journal\online_journal\obj\Debug\net9.0\online_journal.csproj.AssemblyReference.cache
 C:\Users\Another love\OneDrive\Desktop\online_journal\online_journal\obj\Debug\net9.0\online_j.9E5CE38C.Up2Date
+C:\Users\Another love\OneDrive\Desktop\online_journal\online_journal\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
+C:\Users\Another love\OneDrive\Desktop\online_journal\online_journal\obj\Debug\net9.0\compressed\501skae9ct-zg5b1f4oe1.gz
+C:\Users\Another love\OneDrive\Desktop\online_journal\online_journal\obj\Debug\net9.0\compressed\1z68tzarif-0e6mwabpc4.gz

@@ -9,5 +9,6 @@
         public string Role { get; set; } = null!; // Teacher, Student, Parent, Admin
 
         public ICollection<Student>? Students { get; set; }
+        public string? Password { get; internal set; }
     }
 }

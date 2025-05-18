@@ -1,0 +1,15 @@
+﻿@model online_journal.Models.Subject
+
+@{
+    ViewData["Title"] = "Malumot dar borai fan";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<div>
+    <h4>Fan nomi:</h4>
+    <p>@Model.Name</p>
+</div>
+
+<a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-warning">Tahrir kardan</a>
+<a asp-action="Index" class="btn btn-secondary">Ba qafo</a>
